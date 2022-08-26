@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Playlists />} />
-          <Route path="/player/:xuid" element={<Player />} />
+          <Route path="/player/:gamertag" element={<Player />} />
         </Routes>
       </BrowserRouter>
     </div>
